@@ -10,7 +10,6 @@ Nesting If statements and refresh our Comparison & Logical Operators
 print("Welcome to Cash-R-Us Bank\nLet's take a moment to set up your account.\n")
 
 # Set up account by asking users for their First & Last name using Variables
-
 firstName = input("What is your first name: ")
 lastName = input("What is your last name: ")
 
@@ -22,3 +21,13 @@ pin = input("Please choose a 4 digit Personal Identification Number: ")
 print("\nThank you",firstName + ", we see that you set your PIN to",pin)
 
 print("\nWould you like to make a transaction through our Automated Teller Machine")
+atm = input("Yes or No: ").lower()
+
+if atm == "yes":
+    print("\n***********************************************************************\n")
+
+
+
+
+else:
+    print("\nHave a great day",firstName,lastName,", please come back and visit soon.")
